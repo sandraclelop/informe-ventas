@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size:20px;
+}
+.grid-body{
+    display: grid;
+    grid-template-rows: 80px 1fr 80px;
+}
+.encabezado{
+    background-color: #ffe99d;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.logo{
+    margin:10px;
+    margin-left:20px;
+    width:60px;
+}
+.nombre-web-logo{
+    font-family: 'Rockwell', "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(to right, #051eda, #4e46a0, #b02e93);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nombre-web-logo-plantilla {
+    font-family: 'Rockwell', "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: bold;
+    color:#2d2581;
+    margin-left: 35px;
+}
+main{
+    margin:60px;
+}
+.titulo-seccion{
+    color: #948dde;
+    margin-bottom:10px;
+}
+.informe-ventas{
+    margin: 30px; 
+}
+.tabla-informe-ventas {
+    padding:20px;
+    border-collapse: collapse;
+    margin:20px;
+}
+.thead-tabla-informe-ventas{
+    background-color: #ffe4bc;
+    border-bottom: solid 3px #74541b;
+}
+.tbody-tabla-informe-ventas{
+    font-weight: normal;
+
+}
+.tabla-informe-ventas tr:nth-child(even) {
+     background: #ddd;
+}
+.titulo-tabla-id-compra{
+    font-size: 18px;
+    color: #948dde;
+}
+.tabla-informe-ventas th, .tabla-informe-ventas td {
+    padding: 0 15px;
+    text-align: left;
+}
+footer{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    background-color: #ddd;
+    justify-content:space-between;
+}
+footer p {
+    font-style:italic;
+    font-size:18px;
+    margin-left:20px;
+}
+.footer-enlaces-redes-sociales{
+    margin-right:20px;
+    font-size: 40px;
+}
+.logo-email{
+    color: rgb(246, 28, 28);
+}
+.logo-linkedin {
+    color: rgb(63, 145, 247);
+}
+.logo-github{
+    color: rgb(0, 0, 0);
+}
